@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Diwali from "../../assest/Diwali_Poster.png"; // ✅ your local image
+import ImageLoading from "../../Comman/ImageLoading";
 
 const ImageNotification = () => {
   const [visible, setVisible] = useState(true);
@@ -32,8 +33,8 @@ const ImageNotification = () => {
             </button>
 
             {/* Image */}
-            <img
-              src={Diwali}
+            <ImageLoading
+              // src={Diwali}
               alt="Diwali Offer"
               className="w-full h-auto object-cover"
             />

@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { vehicles } from "./VahicleData";
+import ImageLoading from "../../Comman/ImageLoading";
 
 const VehicleAutoScroll = () => {
   return (
@@ -39,7 +40,7 @@ const VehicleAutoScroll = () => {
                 p-4
               "
             >
-              <img
+              <ImageLoading
                 src={car.img}
                 alt={car.name}
                 className="

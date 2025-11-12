@@ -5,17 +5,17 @@ export const PackegesDatas = [
   {
     name: "Indore to Ujjain",
     price: 2500,
-    img: Ujjain,
+    // img: Ujjain,
   },
 
   {
     name: "Indore to Omkareshwar",
     price: 3000,
-    img: Omkareshwar,
+    // img: Omkareshwar,
   },
   {
     name: "Indore to Maheshwar",
     price: 3500,
-    img: Maheshwer,
+    // img: Maheshwer,
   },
 ];

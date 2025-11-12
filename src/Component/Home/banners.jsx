@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { bannerData } from "../../data/BannerData";
+import ImageLoading from "../../Comman/ImageLoading";
 
 export default function Banner() {
   const [current, setCurrent] = useState(0);
@@ -39,7 +40,7 @@ export default function Banner() {
         {/* Right Image */}
         <div className="flex justify-center md:justify-end items-center">
           <AnimatePresence mode="wait">
-            <motion.img
+            <motion.ImageLoading
               key={bannerData[current].image}
               src={bannerData[current].image}
               alt="Banner"

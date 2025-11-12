@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { PackegesDatas } from "./PackegeData";
+import ImageLoading from "../../Comman/ImageLoading";
 
 const Packages = () => {
   return (
@@ -18,7 +19,7 @@ const Packages = () => {
             className="relative w-[250px] sm:w-[280px] md:w-[320px] h-[200px] sm:h-[220px] md:h-[240px] rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-500"
           >
             {/* Background image */}
-            <img
+            <ImageLoading
               src={car.img}
               alt={car.name}
               className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 hover:scale-110"

@@ -54,7 +54,7 @@ const Banner = () => {
         {/* Right Image */}
         <div className="flex justify-center md:justify-end items-center">
           <AnimatePresence mode="wait">
-            <motion.img
+            <img
               key={bannerData[current].image}
               src={bannerData[current].image}
               alt="Banner"

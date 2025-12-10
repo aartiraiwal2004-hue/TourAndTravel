@@ -9,33 +9,33 @@ export const vehicles = [
   {
     name: "Swift Dzire",
     price: 11,
-    // img: Swift,
+    img: Swift,
   },
   {
     name: "Ertiga",
     price: 13,
-    // img: Ertiga,
+    img: Ertiga,
   },
   {
     name: "Toofan",
     price: 15,
-    // img: Toofan,
+    img: Toofan,
   },
 
   {
     name: "Innova Crysta",
     price: 17,
-    // img: Innova,
+    img: Innova,
   },
 
   {
     name: "Traveller",
     price: 22,
-    // img: Traveller,
+    img: Traveller,
   },
   {
     name: "Bus",
     price: 70,
-    // img: Bus,
+    img: Bus,
   },
 ];

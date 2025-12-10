@@ -11,7 +11,7 @@ const Home = () => {
     <div className="w-full">
       {/* Banner Section */}
       <Banner />
-      <ImageNotification />
+      {/* <ImageNotification /> */}
       <VehicleAutoScroll />
 
       {/* Vehicle Section */}

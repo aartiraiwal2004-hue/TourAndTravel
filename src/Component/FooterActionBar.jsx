@@ -34,9 +34,7 @@ const FooterActionBar = () => {
             <FaEnvelope className="text-4xl text-pink-200 drop-shadow-md" />
 
             <p className="font-bold text-lg md:text-xl">Contact Us</p>
-            <p className="text-sm text-gray-100">
-              📞 84356 15656 | 84356 15677
-            </p>
+            <p className="text-sm text-gray-100">📞 84356 15656</p>
             <p className="text-sm text-gray-100">62615 13797</p>
 
             <p className="text-sm text-gray-100">Help Desk: 0731 31995677</p>

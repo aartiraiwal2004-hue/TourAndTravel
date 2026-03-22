@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import Diwali from "../../assest/Diwali_Poster.png"; // ✅ your local image
 import ImageLoading from "../../Comman/ImageLoading";
 
 const ImageNotification = () => {

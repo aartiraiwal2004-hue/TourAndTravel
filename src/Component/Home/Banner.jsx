@@ -5,10 +5,8 @@ import ContactModal from "../../Comman/ContactModal";
 const Banner = () => {
   const [current, setCurrent] = useState(0);
   const [showModal, setShowModal] = useState(false);
-  const [selectedVehicle, setSelectedVehicle] = useState(null);
 
-  const handleBookNow = (vehicle) => {
-    setSelectedVehicle(vehicle);
+  const handleBookNow = () => {
     setShowModal(true);
   };
 

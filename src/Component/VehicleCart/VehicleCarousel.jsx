@@ -16,10 +16,8 @@ const rightVariant = {
 
 const VehicleShowcase = () => {
   const [showModal, setShowModal] = useState(false);
-  const [selectedVehicle, setSelectedVehicle] = useState(null);
 
   const handleBookNow = (vehicle) => {
-    setSelectedVehicle(vehicle);
     setShowModal(true);
   };
   return (

@@ -4,14 +4,12 @@ import VehicleCarousel from "../Component/VehicleCart/VehicleCarousel";
 import VehicleAutoScroll from "../Component/VehicleCart/VehicleAutoScroll";
 import FooterActionBar from "../Component/FooterActionBar";
 import Packages from "../Component/Package/Packages";
-import ImageNotification from "../Component/Home/ImageNotification";
 
 const Home = () => {
   return (
     <div className="w-full">
       {/* Banner Section */}
       <Banner />
-      {/* <ImageNotification /> */}
       <VehicleAutoScroll />
 
       {/* Vehicle Section */}
